@@ -1,16 +1,93 @@
-# React + Vite
+# Ledger Store Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A frontend web application built using React.js to manage financial transactions and records efficiently. The application allows users to add, update, and view transaction details with a clean and responsive user interface.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+* Add new financial transactions
+* Update existing transaction records
+* View transaction history
+* Dynamic UI updates using React state management
+* Component-based architecture for better scalability
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* React.js
+* JavaScript (ES6+)
+* HTML5
+* CSS3
+
+---
+
+## 📂 Project Structure
+
+* `components/` – Reusable UI components
+* `pages/` – Main application pages
+* `App.js` – Root component
+* `index.js` – Entry point
+
+---
+
+## ⚙️ How It Works
+
+* Uses React Hooks like `useState` and `useEffect` for managing application state
+* Handles transaction data dynamically within the frontend
+* Provides smooth and responsive user experience
+
+---
+
+## ▶️ Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/your-username/ledger-store.git
+```
+
+### 2. Navigate to project folder
+
+```bash
+cd ledger-store
+```
+
+### 3. Install dependencies
+
+```bash
+npm install
+```
+
+### 4. Run the application
+
+```bash
+npm start
+```
+
+---
+
+## 📸 Screenshots
+
+(Add screenshots of your UI here)
+
+---
+
+## 📌 Future Improvements
+
+* Add backend integration for persistent data storage
+* Implement authentication and user login
+* Enhance UI with advanced styling
+
+---
+
+## 🤝 Contributing
+
+Feel free to fork this repository and contribute.
+
+---
+
+## 📧 Contact
+
+For any queries or suggestions, feel free to reach out.
